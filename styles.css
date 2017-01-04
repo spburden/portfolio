@@ -1,0 +1,61 @@
+.nav-pills {
+  font-family: lobster;
+  font-size: 28px;
+  background-color: black;
+  opacity: 0.9;
+}
+
+body {
+  font-family: lobster;
+  background-color: white;
+}
+
+#face {
+  border-radius: 50%;
+  width: 300px;
+}
+
+.pageOne {
+  padding-top: 200px;
+  background: url("epic.jpg");
+  background-size: cover;
+  height: 775px;
+}
+
+.pageTwo {
+  background-color: #dc143c;
+  background-size: cover;
+  padding: 50px 0px 50px 0px;
+}
+
+.pageThree {
+  padding: 50px 0px 50px 0px;
+}
+
+.pageFour {
+  background-color: #663399;
+  background-size: cover;
+  padding: 50px 0px 100px 0px;
+}
+
+.footer {
+  background-color: black;
+  background-size: cover;
+  padding: 15px 0px 15px 0px;
+}
+
+h3 {
+  color: white;
+}
+
+.white {
+  color: white;
+}
+
+p {
+  font-size: 24px;
+}
+
+.copyright {
+  color: #e6e6e6;
+}
