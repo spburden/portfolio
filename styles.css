@@ -59,3 +59,68 @@ p {
 .copyright {
   color: #e6e6e6;
 }
+
+.row {
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+}
+
+.caption-style{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+.caption-style .project{
+  float: left;
+  padding: 0px;
+  position: relative;
+  overflow: hidden;
+}
+.caption-style .project:hover .caption{
+  opacity: 1;
+}
+.caption-style img{
+  margin: 0px;
+  padding: 0px;
+  float: left;
+  z-index: 4;
+}
+.caption-style .caption{
+  cursor: pointer;
+  position: absolute;
+  opacity: 0;
+  -webkit-transition:all 0.45s ease-in-out;
+  -moz-transition:all 0.45s ease-in-out;
+  -o-transition:all 0.45s ease-in-out;
+  -ms-transition:all 0.45s ease-in-out;
+  transition:all 0.45s ease-in-out;
+}
+.caption-style .blur{
+  background-color: rgba(0,0,0,0.65);
+  height: 300px;
+  width: 400px;
+  z-index: 5;
+  position: absolute;
+}
+.caption-style .caption-text h1{
+  text-transform: uppercase;
+  font-size: 24px;
+}
+.project .caption-text{
+  z-index: 10;
+  color: #fff;
+  position: absolute;
+  width: 400px;
+  height: 300px;
+  text-align: center;
+  top:100px;
+}
+
+.screenshot {
+    height: 200px;
+    width: 300x;
+    z-index: 4;
+}
+.pageTwo, .pageThree, .pageFour, .footer {
+  font-family: 'Cormorant Garamond', serif;
+}
