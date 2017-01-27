@@ -1,9 +1,14 @@
 .nav-pills {
   font-family: lobster;
   font-size: 28px;
+  font-weight: 100 !important;
   background-color: black;
   opacity: 0.9;
 }
+
+/*#myName {
+  padding-left: 50px;
+}*/
 
 body {
   font-family: lobster;
@@ -118,9 +123,12 @@ p {
 
 .screenshot {
     height: 200px;
-    width: 300x;
+    width: 300px;
     z-index: 4;
 }
 .pageTwo, .pageThree, .pageFour, .footer {
   font-family: 'Cormorant Garamond', serif;
+}
+.nav {
+  letter-spacing: 2px;
 }
