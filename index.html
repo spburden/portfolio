@@ -2,24 +2,50 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?">
   <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
-  <link href="bootstrap.min.css" rel ="stylesheet" type="text/css" media="all">
+  <link href="css/bootstrap.min.css" rel ="stylesheet" type="text/css" media="all">
   <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" media="screen" title="no title">
+  <link rel="stylesheet" href="css/styles.css" media="screen" title="no title">
   <script src="https://use.fontawesome.com/9a38b0e6b3.js"></script>
-  <script language="JavaScript" type="text/javascript" src="jquery-3.1.1.js"></script>
-  <script src="scripts.js" type="text/javascript"></script>
+  <script language="JavaScript" type="text/javascript" src="js/jquery-3.1.1.js"></script>
+  <script language="JavaScript" type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script src="js/scripts.js" type="text/javascript"></script>
   <title>Stephen Burden</title>
 </head>
 <body>
-  <ul class="nav nav-pills navbar-fixed-top">
+  <!-- <ul class="nav nav-pills navbar-fixed-top">
     <li><a href="#" id="home">Stephen Burden</a></li>
     <li class="pull-right page-scroll"><a href="#" id="contact">Contact</a></li>
     <li class="pull-right page-scroll"><a href="#" id="portfolio">Portfolio</a></li>
     <li class="pull-right page-scroll"><a href="#" id="about">About</a></li>
-  </ul>
+  </ul> -->
+
+  <nav class="navbar nav-pills navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#" id="home">Stephen Burden</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="page-scroll"><a href="#" id="contact">Contact</a></li>
+        <li class="page-scroll"><a href="#" id="portfolio">Portfolio</a></li>
+        <li class="page-scroll"><a href="#" id="about">About</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
 
   <!-- <a name="home"></a> -->
   <div class="pageOne">
@@ -46,21 +72,21 @@
       <center>
         <h2>Portfolio</h2></center>
         <div class="row">
-          <div class="col-sm-4">
+          <div class="col-md-4">
             <a target="_blank" href="https://github.com/spburden/skill-swap-drupal">
               <img class="img-responsive thumbnail center-block screenshot" src="images/swap.png" alt="portfolio 1">
             </a>
             <a target="_blank" class="btn btn-default" href="https://github.com/spburden/skill-swap-drupal"><i class="fa fa-github fa-2x"></i></a>
             <a target="_blank" class="btn btn-default" href="http://dev-skillswap.pantheonsite.io/"><i class="fa fa-globe fa-2x"></i></a>
           </div>
-          <div class="col-sm-4">
+          <div class="col-md-4">
             <a target="_blank" href="https://github.com/spburden/neighborly-pdx-ember">
               <img class="img-responsive thumbnail center-block screenshot" src="images/npdx1.png" alt="portfolio 2">
             </a>
             <a target="_blank" class="btn btn-default" href="https://github.com/spburden/neighborly-pdx-ember"><i class="fa fa-github fa-2x"></i></a>
             <a target="_blank" class="btn btn-default" href="https://neighborly-pdx.pagefrontapp.com/"><i class="fa fa-globe fa-2x"></i></a>
           </div>
-          <div class="col-sm-4">
+          <div class="col-md-4">
             <a target="_blank" href="https://github.com/spburden/shift-cipher-drupal">
               <img class="img-responsive thumbnail center-block screenshot" src="images/cipher.png" alt="portfolio 3">
             </a>
@@ -70,21 +96,21 @@
         </div>
 
         <div class="row">
-          <div class="col-sm-4">
+          <div class="col-md-4">
             <a target="_blank" href="https://github.com/spburden/qa-message-board-ember">
               <img class="img-responsive thumbnail center-block screenshot" src="images/msg-brd-ember.png" alt="portfolio 4">
             </a>
             <a target="_blank" class="btn btn-default" href="https://github.com/spburden/qa-message-board-ember"><i class="fa fa-github fa-2x"></i></a>
             <a target="_blank" class="btn btn-default" href="https://qa-board.pagefrontapp.com/"><i class="fa fa-globe fa-2x"></i></a>
           </div>
-          <div class="col-sm-4">
+          <div class="col-md-4">
             <a target="_blank" href="https://github.com/spburden/restaurant-reviewer-php-sql">
               <img class="img-responsive thumbnail center-block screenshot" src="images/relp.png" alt="portfolio 5">
             </a>
             <a target="_blank" class="btn btn-default" href="https://github.com/spburden/restaurant-reviewer-php-sql"><i class="fa fa-github fa-2x"></i></a>
             <a target="_blank" class="btn btn-default" href="https://enigmatic-tor-27207.herokuapp.com/"><i class="fa fa-globe fa-2x"></i></a>
           </div>
-          <div class="col-sm-4 board">
+          <div class="col-md-4 board">
             <a target="_blank" href="https://github.com/spburden/spacetruckin">
               <img class="img-responsive thumbnail center-block screenshot" src="images/space.png" alt="portfolio 6">
             </a>
@@ -94,21 +120,21 @@
         </div>
 
         <div class="row">
-          <div class="col-sm-4">
+          <div class="col-md-4">
             <a target="_blank" href="https://github.com/spburden/word-frequency-php">
               <img class="img-responsive thumbnail center-block screenshot" src="images/freq.png" alt="portfolio 7">
             </a>
             <a target="_blank" class="btn btn-default" href="https://github.com/spburden/word-frequency-php"><i class="fa fa-github fa-2x"></i></a>
             <a target="_blank" class="btn btn-default" href="http://word-count-php.herokuapp.com/"><i class="fa fa-globe fa-2x"></i></a>
           </div>
-          <div class="col-sm-4">
+          <div class="col-md-4">
             <a target="_blank" href="https://github.com/spburden/shopping-site-ember">
               <img class="img-responsive thumbnail center-block screenshot" src="images/shop.png" alt="portfolio 8">
             </a>
             <a target="_blank" class="btn btn-default" href="https://github.com/spburden/shopping-site-ember"><i class="fa fa-github fa-2x"></i></a>
             <a target="_blank" class="btn btn-default" href="https://electronics-store.pagefrontapp.com/"><i class="fa fa-globe fa-2x"></i></a>
           </div>
-          <div class="col-sm-4">
+          <div class="col-md-4">
             <a target="_blank" href="https://github.com/spburden/help-queue-ember">
               <img class="img-responsive thumbnail center-block screenshot" src="images/help.png" alt="portfolio 9">
             </a>
