@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 nav {
-  font-family: 'Lato', sans-serif;
+  /*font-family: 'Lato', sans-serif;*/
 }
 nav li a {
   color: white;
 }
 #home {
   color: #FDD167;
+}
+#home:hover {
+  color: #FFEAB7;
 }
 .icon-bar {
   background-color: #FDD167;
@@ -149,6 +152,6 @@ p {
 .pageTwo, .pageThree, .pageFour, .footer {
   font-family: 'Cormorant Garamond', serif;
 }
-.nav {
-  letter-spacing: 2px;
+.nav, #home {
+  letter-spacing: 1.5px;
 }
