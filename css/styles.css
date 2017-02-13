@@ -5,17 +5,28 @@ nav {
 nav li a {
   color: white;
 }
+li {
+
+}
 strong h2 {
   font-weight: bolder;
 }
+.page-scroll {
+  text-align: center;
+}
 .skills {
-  margin-left: 15%;
-  text-align:left;
+  margin: 5px;
+  padding: 5px;
+  background: white;
+  list-style-type: none;
   font-size: 24px;
+  color: #71ACC0;
+}
+#skills {
   color: white;
 }
 .php {
-  padding-top: 12px;
+  padding-top: 22px;
 }
 #home {
   color: #FDD167;
@@ -47,7 +58,7 @@ h3 {
   text-shadow: 1px 1px 5px black;
 }
 body {
-  font-family: lobster;
+  font-family: 'Oswald', sans-serif;
   background-color: white;
 }
 
@@ -62,6 +73,7 @@ body {
   background-size: cover;
   background-position: center;
   height: 775px;
+  font-family: 'Lobster';
 }
 .whatup {
   padding-bottom: 36px;
@@ -167,7 +179,7 @@ p {
     z-index: 4;
 }
 .pageTwo, .pageThree, .pageFour, .footer {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Oswald', sans-serif;
 }
 .nav, #home {
   letter-spacing: 1.5px;
