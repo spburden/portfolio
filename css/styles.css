@@ -60,6 +60,7 @@ body {
   padding-top: 200px;
   background: url("../images/epic.jpg");
   background-size: cover;
+  background-position: center;
   height: 775px;
 }
 .whatup {
