@@ -5,6 +5,18 @@ nav {
 nav li a {
   color: white;
 }
+strong h2 {
+  font-weight: bolder;
+}
+.skills {
+  margin-left: 15%;
+  text-align:left;
+  font-size: 24px;
+  color: white;
+}
+.php {
+  padding-top: 12px;
+}
 #home {
   color: #FDD167;
 }
@@ -50,7 +62,11 @@ body {
   background-size: cover;
   height: 775px;
 }
-
+.whatup {
+  padding-bottom: 36px;
+  padding-top: 18px;
+  background-color: #71ACC0;
+}
 .pageTwo {
   background-color: #2B758E;
   background-size: cover;
