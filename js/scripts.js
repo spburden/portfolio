@@ -28,21 +28,23 @@ $(document).ready(function() {
     // var language_array = array()
     var language = this.value;
     // alert(language);
-    if (language === "all") {
-      $('.col-sm-4').show();
-    } else if (language === "php") {
-      $('.col-sm-4').hide();
-      $('.php').show();
-    } else if (language === "js") {
-      $('.col-sm-4').hide();
-      $('.js').show();
-    } else if (language === "drupal") {
-      $('.col-sm-4').hide();
-      $('.drupal').show();
-    }
+    // setTimeout(function(){
+      if (language === "all") {
+        $('.porto').fadeIn("slow");
+      } else if (language === "php") {
+        $('.porto').fadeOut("slow");
+        $('.php').fadeIn("slow");
+      } else if (language === "js") {
+        $('.porto').fadeOut("slow");
+        $('.js').fadeIn("slow");
+      } else if (language === "drupal") {
+        $('.porto').fadeOut("slow");
+        $('.drupal').fadeIn("slow");
+      }
+    // }, 1000);
     $('html, body').animate({
       scrollTop: $(".pageThree").offset().top
-    }, 500);
+    }, 1000);
   });
 
 });
