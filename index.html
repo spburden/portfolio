@@ -53,8 +53,8 @@
   <div class="pageOne">
     <img class="center-block" src="images/me.jpeg" id="face" alt="my photo" />
     <center>
-      <h1 id="burden">Stephen Burden</h1>
-      <h3>Web Developer</h3>
+      <h1 class="burden">Stephen Burden</h1>
+      <h3 class="burden">Web Developer</h3>
     </center>
   </div>
 
@@ -65,7 +65,7 @@
       <center><h2 class="white">About Me</h2></center>
       <hr>
       <p align="justify" class="white">
-        I am a Web Developer based out of Portland, Oregon. I have always had a passion for technology and have a knack for working with computers and solving problems. In my previous positions I learned to think on my toes, problem-solve, work as a team, be creative, improvise, and most importantly be able to help people. I’ve worked with a range of programming languages and technologies and continue to strive to improve and learn more. In my spare time I love to Snowboard up at Mount Hood, play Soccer, Tennis, Raquetball, Fifa, Wakeboard/Surf, watch Liverpool FC, Swim Outdoors, and Travel the World.
+        I am a Web Developer based out of Portland, Oregon. I have always had a passion for technology and have a knack for working with computers and solving problems. In my previous positions I learned to think on my toes, problem-solve, work as a team, be creative, improvise, and most importantly be able to help people. I’ve worked with a range of programming languages and technologies and continue to strive to improve and learn more. In my spare time, I love to Snowboard up at Mount Hood, play Soccer, Tennis, Racquetball, Fifa, Wakeboard/Surf, watch Liverpool FC, Swim Outdoors, and Travel the World.
       </p>
         <br>
         <div class="row whatup">
@@ -81,7 +81,7 @@
             <li class="skills">Ember</li>
             <li class="skills">Angular 2</li>
           </div>
-          <div class="col-sm-4 php">
+          <div class="col-sm-4 mid-skills">
             <li class="skills">PHP</li>
             <li class="skills">Silex</li>
             <li class="skills">Twig</li>
@@ -102,94 +102,103 @@
     <!-- <a name="portfolio"></a> -->
     <div class="container-fluid pageThree">
       <center>
-        <h2>Portfolio</h2></center>
+        <strong><h2>Portfolio</h2></strong>
+      </center>
         <hr>
+        <center>
+          <select class="">
+            <option value="all">All</option>
+            <option value="php">PHP</option>
+            <option value="js">JavaScript</option>
+            <option value="drupal">Drupal</option>
+          </select>
+       </center>
+       <br>
         <div class="row">
-          <div class="col-sm-4">
+          <div class="col-sm-4 porto drupal">
             <a target="_blank" href="https://github.com/spburden/skill-swap-drupal">
               <img class="img-responsive thumbnail center-block screenshot" src="images/swap.png" alt="portfolio 1">
             </a>
             <a target="_blank" class="btn btn-default" href="https://github.com/spburden/skill-swap-drupal"><i class="fa fa-github fa-2x"></i></a>
             <a target="_blank" class="btn btn-default" href="http://dev-skillswap.pantheonsite.io/"><i class="fa fa-globe fa-2x"></i></a>
           </div>
-          <div class="col-sm-4">
+          <div class="col-sm-4 porto js">
             <a target="_blank" href="https://github.com/spburden/neighborly-pdx-ember">
               <img class="img-responsive thumbnail center-block screenshot" src="images/npdx1.png" alt="portfolio 2">
             </a>
             <a target="_blank" class="btn btn-default" href="https://github.com/spburden/neighborly-pdx-ember"><i class="fa fa-github fa-2x"></i></a>
             <a target="_blank" class="btn btn-default" href="https://neighborly-pdx.pagefrontapp.com/"><i class="fa fa-globe fa-2x"></i></a>
           </div>
-          <div class="col-sm-4">
+          <div class="col-sm-4 porto drupal">
             <a target="_blank" href="http://seedpodgcjmduussc.devcloud.acquia-sites.com/">
               <img class="img-responsive thumbnail center-block screenshot" src="images/seedpod.png" alt="portfolio 11">
             </a>
             <a target="_blank" class="btn btn-default" href="http://seedpodgcjmduussc.devcloud.acquia-sites.com/"><i class="fa fa-globe fa-2x"></i></a>
           </div>
-        </div>
 
-        <div class="row">
-          <div class="col-sm-4">
+
+
+          <div class="col-sm-4 porto js">
             <a target="_blank" href="https://github.com/spburden/qa-message-board-ember">
               <img class="img-responsive thumbnail center-block screenshot" src="images/msg-brd-ember.png" alt="portfolio 4">
             </a>
             <a target="_blank" class="btn btn-default" href="https://github.com/spburden/qa-message-board-ember"><i class="fa fa-github fa-2x"></i></a>
             <a target="_blank" class="btn btn-default" href="https://qa-board.pagefrontapp.com/"><i class="fa fa-globe fa-2x"></i></a>
           </div>
-          <div class="col-sm-4">
+          <div class="col-sm-4 porto php">
             <a target="_blank" href="https://github.com/spburden/restaurant-reviewer-php-sql">
               <img class="img-responsive thumbnail center-block screenshot" src="images/relp.png" alt="portfolio 5">
             </a>
             <a target="_blank" class="btn btn-default" href="https://github.com/spburden/restaurant-reviewer-php-sql"><i class="fa fa-github fa-2x"></i></a>
             <a target="_blank" class="btn btn-default" href="https://enigmatic-tor-27207.herokuapp.com/"><i class="fa fa-globe fa-2x"></i></a>
           </div>
-          <div class="col-sm-4 board">
+          <div class="col-sm-4 porto php">
             <a target="_blank" href="https://github.com/spburden/spacetruckin">
               <img class="img-responsive thumbnail center-block screenshot" src="images/space.png" alt="portfolio 6">
             </a>
             <a target="_blank" class="btn btn-default" href="https://github.com/spburden/spacetruckin"><i class="fa fa-github fa-2x"></i></a>
             <a target="_blank" class="btn btn-default" href="https://shrouded-garden-90623.herokuapp.com/"><i class="fa fa-globe fa-2x"></i></a>
           </div>
-        </div>
 
-        <div class="row">
-          <div class="col-sm-4">
+
+
+          <div class="col-sm-4 porto php">
             <a target="_blank" href="https://github.com/spburden/word-frequency-php">
               <img class="img-responsive thumbnail center-block screenshot" src="images/freq.png" alt="portfolio 7">
             </a>
             <a target="_blank" class="btn btn-default" href="https://github.com/spburden/word-frequency-php"><i class="fa fa-github fa-2x"></i></a>
             <a target="_blank" class="btn btn-default" href="http://word-count-php.herokuapp.com/"><i class="fa fa-globe fa-2x"></i></a>
           </div>
-          <div class="col-sm-4">
+          <div class="col-sm-4 porto php">
             <a target="_blank" href="https://github.com/spburden/shopping-site-ember">
               <img class="img-responsive thumbnail center-block screenshot" src="images/shop.png" alt="portfolio 8">
             </a>
             <a target="_blank" class="btn btn-default" href="https://github.com/spburden/shopping-site-ember"><i class="fa fa-github fa-2x"></i></a>
             <a target="_blank" class="btn btn-default" href="https://electronics-store.pagefrontapp.com/"><i class="fa fa-globe fa-2x"></i></a>
           </div>
-          <div class="col-sm-4">
+          <div class="col-sm-4 porto js">
             <a target="_blank" href="https://github.com/spburden/help-queue-ember">
               <img class="img-responsive thumbnail center-block screenshot" src="images/help.png" alt="portfolio 9">
             </a>
             <a target="_blank" class="btn btn-default" href="https://github.com/spburden/help-queue-ember"><i class="fa fa-github fa-2x"></i></a>
             <a target="_blank" class="btn btn-default" href="https://help-queue.pagefrontapp.com/"><i class="fa fa-globe fa-2x"></i></a>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-4">
+
+          <div class="col-sm-4 porto js">
             <a target="_blank" href="https://github.com/spburden/meal-tracker-angular2">
               <img class="img-responsive thumbnail center-block screenshot" src="images/meal.png" alt="portfolio 10">
             </a>
             <a target="_blank" class="btn btn-default" href="https://github.com/spburden/meal-tracker-angular2"><i class="fa fa-github fa-2x"></i></a>
             <a target="_blank" class="btn btn-default" href="https://meal-tracker-angular2.herokuapp.com/"><i class="fa fa-globe fa-2x"></i></a>
           </div>
-          <div class="col-sm-4">
+          <div class="col-sm-4 porto php">
             <a target="_blank" href="https://github.com/spburden/shoe-store-php-sql">
               <img class="img-responsive thumbnail center-block screenshot" src="images/shoes.png" alt="portfolio 11">
             </a>
             <a target="_blank" class="btn btn-default" href="https://github.com/spburden/shoe-store-php-sql"><i class="fa fa-github fa-2x"></i></a>
             <a target="_blank" class="btn btn-default" href="https://oak-worry.000webhostapp.com/"><i class="fa fa-globe fa-2x"></i></a>
           </div>
-          <div class="col-sm-4">
+          <div class="col-sm-4 porto drupal">
             <a target="_blank" href="https://github.com/spburden/shift-cipher-drupal">
               <img class="img-responsive thumbnail center-block screenshot" src="images/cipher.png" alt="portfolio 3">
             </a>
