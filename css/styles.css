@@ -189,7 +189,9 @@ select {
   text-align-last:center;
   font-size: 16px;
 }
-
+.porto img:hover {
+  box-shadow: 2px 2px 15px black;
+}
 /*@media screen and (max-width: 500px) {
   .pageThree .col-sm-4 img {
     width: 100%;
