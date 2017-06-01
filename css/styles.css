@@ -70,8 +70,9 @@ body {
   background: url("../images/epic.jpg");
   background-size: cover;
   background-position: center;
-  height: 775px;
-  /*height: 100vh;*/
+  /* height: 775px; */
+  height: 100vh;
+  min-height: 40em;
   font-family: 'Lobster';
 }
 .whatup {
