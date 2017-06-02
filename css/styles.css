@@ -5,6 +5,9 @@ nav {
 nav li a {
   color: white;
 }
+.container-fluid {
+  overflow: hidden;
+}
 .pageThree .col-sm-4 {
   margin-bottom: 15px;
 }
