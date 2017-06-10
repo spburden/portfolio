@@ -22,7 +22,7 @@ strong h2 {
 .justify {
   text-align: justify;
 }
-.strong { 
+.strong {
     font-weight: bold;
 }
 .page-scroll {
@@ -81,7 +81,7 @@ body {
 }
 .pageOne {
   padding-top: 200px;
-  background: url("../images/epic.jpg");
+  background: url("../images/epic2.jpg");
   background-size: cover;
   background-position: center;
   /* height: 775px; */
