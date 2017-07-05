@@ -24,13 +24,14 @@ strong h2 {
 .page-scroll {
   text-align: center;
 }
-.skills {
+.skills li {
   margin: 5px;
   padding: 5px;
   background: white;
   list-style-type: none;
   font-size: 24px;
   color: #71ACC0;
+  box-shadow: 2px 2px 2px black;
 }
 #skills {
   color: white;
@@ -189,9 +190,6 @@ select {
   width: 25%;
   text-align-last: center;
   font-size: 16px;
-}
-.col-sm-4 .skills {
-  box-shadow: 2px 2px 2px black;
 }
 @media screen and (max-width: 767px) {
   .screenshot {
