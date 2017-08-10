@@ -24,6 +24,9 @@ strong h2 {
 .page-scroll {
   text-align: center;
 }
+.page-scroll a:hover {
+  color: #6F51AD;
+}
 .skills li {
   margin: 5px;
   padding: 5px;
@@ -190,6 +193,10 @@ select {
   width: 25%;
   text-align-last: center;
   font-size: 16px;
+}
+.active {
+  color: #6F51AD;
+  background: #eee;
 }
 @media screen and (max-width: 767px) {
   .screenshot {

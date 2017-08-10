@@ -3,7 +3,7 @@ $(document).ready(function() {
     var part = this.attributes['data-part'].value;
     $('html, body').animate({
       scrollTop: $("." + part).offset().top
-    }, 1500);
+    }, 1000);
   });
   $('select').on('change', function() {
     var language = this.value;
@@ -15,6 +15,30 @@ $(document).ready(function() {
     }
     $('html, body').animate({
       scrollTop: $(".pageThree").offset().top
-    }, 1000);
+    }, 1200);
+  });
+
+
+  $('.page-scroll a').on('click', function(event) {
+    $(this).blur();
+    $('a').removeClass('active');
+    // $(this).addClass('active');
+  });
+
+  $(window).on('scroll', function() {
+    $('.section').each(function() {
+      var scrollBottom = $(window).scrollTop() + $(window).height();
+      if((scrollBottom >= $(this).offset().top) && ($(this).attr('id') === "pageFour")) {
+        var id = $(this).attr('id');
+        $('.page-scroll a').removeClass('active');
+        $('.page-scroll a[data-part='+ id +']').addClass('active');
+      }
+      if(($(window).scrollTop() >= $(this).offset().top) && ($(this).attr('id') !== "pageFour")) {
+        var id2 = $(this).attr('id');
+        console.log(id2);
+        $('.page-scroll a').removeClass('active');
+        $('.page-scroll a[data-part='+ id2 +']').addClass('active');
+      }
+    });
   });
 });
