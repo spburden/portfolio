@@ -40,8 +40,8 @@ strong h2 {
   color: white;
 }
 .mid-skills {
-  padding-top: 22px;
-  padding-bottom: 22px;
+  /*padding-top: 22px;
+  padding-bottom: 22px;*/
 }
 #home {
   color: #FDD167;
@@ -202,6 +202,10 @@ select {
   .screenshot {
     width: 500px;
     height: 333px;
+  }
+  .mid-skills {
+    padding-top: 22px;
+    padding-bottom: 22px;
   }
 }
 @media screen and (max-width: 414px) {
