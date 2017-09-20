@@ -27,6 +27,9 @@ strong h2 {
 .page-scroll a:hover {
   color: #6F51AD;
 }
+ul.skills {
+  padding: 0;
+}
 .skills li {
   margin: 5px;
   padding: 5px;
