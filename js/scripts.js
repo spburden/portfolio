@@ -35,7 +35,7 @@ $(document).ready(function() {
       }
       if(($(window).scrollTop() >= $(this).offset().top) && ($(this).attr('id') !== "pageFour")) {
         var id2 = $(this).attr('id');
-        console.log(id2);
+        // console.log(id2);
         $('.page-scroll a').removeClass('active');
         $('.page-scroll a[data-part='+ id2 +']').addClass('active');
       }
