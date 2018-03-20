@@ -1,8 +1,9 @@
 $(document).ready(function() {
+  var navHeight = $('#bs-example-navbar-collapse-1').outerHeight();
   $("nav a").click(function() {
     var part = this.attributes['data-part'].value;
     $('html, body').animate({
-      scrollTop: $("." + part).offset().top
+      scrollTop: $("." + part).offset().top - navHeight
     }, 1000);
   });
   $('select').on('change', function() {
@@ -33,9 +34,8 @@ $(document).ready(function() {
         $('.page-scroll a').removeClass('active');
         $('.page-scroll a[data-part='+ id +']').addClass('active');
       }
-      if(($(window).scrollTop() >= $(this).offset().top) && ($(this).attr('id') !== "pageFour")) {
+      if((($(window).scrollTop() + navHeight) >= $(this).offset().top) && ($(this).attr('id') !== "pageFour")) {
         var id2 = $(this).attr('id');
-        console.log(id2);
         $('.page-scroll a').removeClass('active');
         $('.page-scroll a[data-part='+ id2 +']').addClass('active');
       }
