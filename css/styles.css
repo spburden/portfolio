@@ -58,6 +58,13 @@ ul.skills {
 .row {
   text-align: center;
 }
+.row--flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+}
 .row .btn {
   margin-top: -15px;
   margin-bottom: 7px;
